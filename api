@@ -1,0 +1,19 @@
+var apiUrl = 'https://api.mxtoolbox.com/api/v1/Lookup/tcp/';
+var apiKey = 'c16f32f6-d7ae-45a3-a41b-6d23883f081e'; 
+
+$.ajax({ 
+    url: apiUrl, 
+    type: 'GET',
+    dataType: 'json', 
+    success: function (result) { 
+        //OnSuccess Callback
+    },
+    error: function (xhr, status, error) { 
+        //OnError Callback
+    },
+    beforeSend: function (xhr) { 
+        if (apiKey) { 
+            xhr.setRequestHeader('Authorization', apiKey); 
+        } 
+    } 
+});
