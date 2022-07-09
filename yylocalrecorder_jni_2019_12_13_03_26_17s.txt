@@ -1,2 +1,0 @@
-12-13_03.26.17.027[yylocalrecorder][I][lient/yymediasdk.cpp(143)]:yylocalrecordersdk_createSdkIns
-12-13_03.26.17.028[yylocalrecorder][D][PAL_Thread_posix.cpp(256)]:Thread with name:async_writer_thread started 
